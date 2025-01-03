@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#" id="active">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">FAQ</a>
+    </nav>
+
+    <!-- Banner -->
+
+    <div class="banner">
+        <p>Time to learn,</p>
+        <p>innovate &</p>
+        <p>create.</p>
+        <button class="beginBtn">
+            <a href="/">Lets Go</a>
+        </button>
+    </div>
+
+    <!-- Intro Section -->
+
+    <section class="intro__container">
+        <div class="intro__left">
+            <h2>Adapting to change</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione fugit cumque quisquam,
+                voluptates qui itaque asperiores incidunt. Porro, soluta?</p>
+        </div>
+        <div class="intro__right">
+            <img src="./img/pic2.svg" alt="">
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+
+    <section class="cards">
+        <h2>Breaking down barriers</h2>
+        <div class="cards__container">
+            <div class="cards__item">
+                <i class="fas fa-tachometer-fast fa-4x"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, doloremque.</p>
+            </div>
+            <div class="cards__item">
+                <i class="fas fa-smile-beam fa-4x"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, doloremque.</p>
+            </div>
+            <div class="cards__item">
+                <i class="fas fa-calendar fa-4x"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, doloremque.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+
+    <section class="gallery">
+        <div class="gallery__container">
+            <div class="gallery__item">
+                <h2>Fast</h2>
+                <p>Lorem ipsum, architecto voluptatum.</p>
+                <br>
+                <p>officia sunt cumque laboriosam iste perferendis sequi quod repudiandae dolor, illum nulla. Ducimus explicabo
+                    dignissimos dolor quis.</p>
+            </div>
+            <div class="gallery__item">
+                <h2>Agile</h2>
+                <p>Lorem ipsum voluptatum, quasi fugiat exercitationem necessitatibus culpa omnis officiis dignissimos iure quidem autem ipsum sequi voluptatem et odio animi minima, ducimus porro?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque doloremque velit voluptatem voluptatum, nostrum sunt aspernatur fugiat dicta. Placeat reiciendis quasi </p>
+            </div>
+            <div class="gallery__item">
+                <h2>Flexible</h2>
+                <p>Lorem ipsum, architecto voluptatum.</p> 
+                <br>
+                <p>officia sunt cumque laboriosam iste perferendis sequi quod repudiandae dolor, illum nulla. Ducimus explicabo dignissimos dolor quis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>What we're about</h2>
+        <div class="about__container">
+            <img src="./img/undraw_team_collaboration_re_ow29.svg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium recusandae, minus distinctio blanditiis cum. Nemo, repellendus? Necessitatibus, eius at.</p>
+        </div>
+        <div class="about__hidden--top"></div>
+    </section>
+    <section class="about">
+        <h2>Global reach</h2>
+        <div class="about__container">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium recusandae, minus distinctio blanditiis cum. Nemo, repellendus? Necessitatibus, eius at.</p>
+            <img src="./img/undraw_connected_world_wuay (1).svg" alt="">
+        </div>
+        <div class="about__hidden--bottom"></div>
+    </section>
+
+    <!-- Stats Section -->
+
+    <section class="stats">
+        <div class="stats__container">
+            <div class="stats__item" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">
+                <h2>22-34</h2>
+                <p>Age Range</p>
+                <p>Lorem ipsum dolor sit amet adipisicing elit, vel.</p>
+            </div>
+            <div class="stats__item" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">
+                <h2>94%</h2>
+                <p>Satisfaction</p>
+                <p>Lorem ipsum dolor sit amet consectetur, nam, a?</p>
+            </div>
+            <div class="stats__item" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">
+                <h2>Worldwide</h2>
+                <p>Available</p>
+                <p>Ipsum dolor sit amet consectetur adipisicing elit. Quam, ab?</p>
+            </div>
+            <div class="stats__item" onmouseover="MouseOver(this)" onmouseout="MouseOut(this)">
+                <h2>£1.2m</h2>
+                <p>Raised</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, esse!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flip Cards Section -->
+
+    <section class="flipcards">
+        <h2>Flip these cards around</h2>
+        <div class="flipcards__container">
+            <div class="flipcards__item">
+                <div class="flipcards__item--inner">
+                    <div class="flipcards__item--front">
+                        <h3>Share</h3>
+                        <hr>
+                        <i class="fas fa-people-carry"></i>
+                    </div>
+                    <div class="flipcards__item--back">
+                        <h3>Help us spread the word</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloremque neque provident eligendi iure
+                            esse eum, quis quos mollitia. Molestias inventore aspernatur libero? Labore reprehenderit omnis harum
+                            error
+                            animi sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flipcards__item">
+                <div class="flipcards__item--inner">
+                    <div class="flipcards__item--front">
+                        <h3>Collaborate</h3>
+                        <hr>
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <div class="flipcards__item--back">
+                        <h3>Collaborate with others</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloremque neque provident eligendi iure
+                            esse eum, quis quos mollitia. Molestias inventore aspernatur libero? Labore reprehenderit omnis harum
+                            error
+                            animi sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flipcards__item">
+                <div class="flipcards__item--inner">
+                    <div class="flipcards__item--front">
+                        <h3>Help</h3>
+                        <hr>
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="flipcards__item--back">
+                        <h3>Need help?</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloremque neque provident eligendi iure
+                            esse eum, quis quos mollitia. Molestias inventore aspernatur libero? Labore reprehenderit omnis harum
+                            error
+                            animi sit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flipcards__item">
+                <div class="flipcards__item--inner">
+                    <div class="flipcards__item--front">
+                        <h3>Bookmark</h3>
+                        <hr>
+                        <i class="fas fa-bookmark"></i>
+                    </div>
+                    <div class="flipcards__item--back">
+                        <h3>Bookmark for quick access</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloremque neque provident eligendi iure
+                            esse eum, quis quos mollitia. Molestias inventore aspernatur libero? Labore reprehenderit omnis harum
+                            error
+                            animi sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__section">
+            <div class="footer__container">
+                <div class="footer__links">
+                    <h3>Home</h3>
+                    <ul>
+                        <li><a href="/">Products</a></li>
+                        <li><a href="/">Gallery</a></li>
+                        <li><a href="/">Vision</a></li>
+                        <li><a href="/">Join us</a></li>
+                        <li><a href="/">Socials</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="/">Staff</a></li>
+                        <li><a href="/">Founded</a></li>
+                        <li><a href="/">Location</a></li>
+                        <li><a href="/">Franchise</a></li>
+                        <li><a href="/">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="/">Online</a></li>
+                        <li><a href="/">Email</a></li>
+                        <li><a href="/">Live chat</a></li>
+                        <li><a href="/">Letter</a></li>
+                        <li><a href="/">PO Box</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__social">
+                    <h3 id="social__title">Follow us</h3>
+                    <a href="/"><i class="fab fa-twitter-square"></i></a>
+                    <a href="/"><i class="fab fa-facebook-square"></i></a>
+                    <a href="/"><i class="fab fa-youtube-square"></i></a>
+                    <a href="/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="app.js"> </script>
+</body>
+
+</html>
